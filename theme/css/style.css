@@ -263,8 +263,8 @@ a:hover {
 #hero-area video{
   width: 100%;
   height: 100%;
-  position: absolute;
-  top:0;
+  position:absolute;
+  top: 50px;;
   left:0;
   z-index: 8;
   object-fit:inherit;
