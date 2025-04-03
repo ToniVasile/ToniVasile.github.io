@@ -266,13 +266,13 @@ a:hover {
   position: absolute;
   top:0;
   left:0;
-  z-index: 10;
-  object-fit:fill;
+  z-index: 8;
+  object-fit:inherit;
 }
 #hero-area:before {
   content: "";
   z-index: 9;
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.3);
   position: absolute;
   top: 0;
   left: 0;
