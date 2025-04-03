@@ -178,7 +178,7 @@ a:hover {
   top: 0;
   width: 100%;
   background: #fff;
-  color: #fff;
+  color: #1c1a1a;
   transition: all 0.2s ease-out 0s;
   padding: 15px 0;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -187,7 +187,7 @@ a:hover {
 }
 .top-bar.animated-header {
   padding: 20px 0;
-  background: #fff;
+  background: #111111;
   box-shadow: none;
 }
 
@@ -198,10 +198,10 @@ a:hover {
   padding: 0;
 }
 .navbar.bg-light {
-  background: #fff !important;
+  background: #111111 !important;
 }
 .navbar .nav-item .nav-link {
-  color: #444 !important;
+  color: #caeff3 !important;
   font-size: 14px;
   font-weight: 500;
   transition: 0.3s all;
@@ -264,21 +264,12 @@ a:hover {
   width: 100%;
   height: 100%;
   position:absolute;
-  top: 50px;;
+  top: 230px;;
   left:0;
   z-index: 8;
   object-fit:inherit;
 }
-#hero-area:before {
-  content: "";
-  z-index: 9;
-  background: rgba(255, 255, 255, 0.3);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
+
 #hero-area .block {
   position: relative;
   z-index: 9;
@@ -288,18 +279,16 @@ a:hover {
   line-height: 50px;
   color: #333;
   font-weight: 700;
-  margin-bottom: 15px;
-  text-transform: uppercase;
+  margin-top: 95px;
 }
 #hero-area h2 {
   font-size: 18px;
   font-weight: 300;
-  margin-bottom: 38px;
   line-height: 27px;
   text-transform: uppercase;
   color: #666;
   font-family: "Roboto", sans-serif;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 #hero-area .btn {
   background: #414141;
@@ -360,6 +349,7 @@ a:hover {
 }
 
 #about {
+  margin-top: 700px;
   padding: 110px 0;
 }
 #about .block {
