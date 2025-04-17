@@ -28,7 +28,7 @@ p {
 }
 
 body {
-  background: #ffffff;
+  background: #d5d5d5;
 }
 
 ul {
@@ -177,8 +177,8 @@ a:hover {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #fff;
-  color: #1c1a1a;
+  background: #4c4c4c;
+  color: #4c4c4c;
   transition: all 0.2s ease-out 0s;
   padding: 15px 0;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -187,7 +187,7 @@ a:hover {
 }
 .top-bar.animated-header {
   padding: 20px 0;
-  background: #111111;
+  background: #4c4c4c;
   box-shadow: none;
 }
 
@@ -198,7 +198,7 @@ a:hover {
   padding: 0;
 }
 .navbar.bg-light {
-  background: #111111 !important;
+  background: #4c4c4c !important;
 }
 .navbar .nav-item .nav-link {
   color: #caeff3 !important;
@@ -217,7 +217,7 @@ a:hover {
 }
 
 .dropdown-menu {
-  background: #222222;
+  background: #313131;
   border: 0;
   border-radius: 0;
   padding: 15px;
@@ -260,36 +260,45 @@ a:hover {
   transform: scale(1);
 }
 
-#hero-area video{
-  width: 100%;
-  height: 100%;
-  position:absolute;
-  top: 230px;;
-  left:0;
-  z-index: 8;
-  object-fit:inherit;
+#hero-area .block {
+margin-top: 90px;
+z-index: 9;
 }
 
-#hero-area .block {
-  position: relative;
-  z-index: 9;
+#hero-area .Welcome {
+  top: 80px;
+  font:;
+  font-size: 100px;
+  height: 90%;
+  width: 200%;
+  position: absolute;
+  left: -50%;
+  animation: slideIn 2s ease-out forwards;
+  animation-delay: 1s;
+  color: #ffffff;
+  background-color: #3fc1d2;
+  display: flex;
 }
+
+@keyframes slideIn {
+  from {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-150%);
+    opacity: 1;
+  }
+}
+
 #hero-area h1 {
   font-size: 40px;
   line-height: 50px;
   color: #333;
   font-weight: 700;
-  margin-top: 95px;
+  margin-top: 90px;
 }
-#hero-area h2 {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 27px;
-  text-transform: uppercase;
-  color: #666;
-  font-family: "Roboto", sans-serif;
-  margin-top: 15px;
-}
+
 #hero-area .btn {
   background: #414141;
   border: none;
@@ -349,21 +358,27 @@ a:hover {
 }
 
 #about {
-  margin-top: 700px;
-  padding: 110px 0;
+  padding: 10px 0;
+}
+#about video{
+  width: 100%;
+  height: 100%;
+  position:relative;
+  z-index: 8;
+  object-fit:inherit;
 }
 #about .block {
   padding: 20px 30px 0 30px;
 }
 #about .block h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
 #about .block p {
   color: #727272;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   margin-bottom: 35px;
 }
