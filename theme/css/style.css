@@ -176,7 +176,7 @@ a:hover {
 .top-bar {
   position: fixed;
   top: 0;
-  width: 79%;
+  width: 100%;
   background: #4c4c4c;
   color: #4c4c4c;
   transition: all 0.2s ease-out 0s;
@@ -270,7 +270,7 @@ z-index: 9;
   font:;
   font-size: 100px;
   height: 90%;
-  width: 200%;
+  width: 164%;
   position: absolute;
   left: -50%;
   animation: slideIn 2s ease-out forwards;
